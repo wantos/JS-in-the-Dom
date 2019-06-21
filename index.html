@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Learning the DOM</title>
+</head>
+<body>
+  <h1>Document Object Model</h1>
+<a id="nav" href="index.html">Home</a><br>
+
+<button id="changeBackground">Change Background Color</button>
+
+let button = document.getElementById('changeBackground');
+
+button.addEventListener('click' , () => {
+	document.body.style.backgroundColor = 'fuchsia';
+});
+
+
+<script src="js/scripts.js"></script>
+</body>
+</html>
